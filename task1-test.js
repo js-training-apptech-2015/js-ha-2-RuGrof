@@ -2,7 +2,6 @@ QUnit.test("bind test", function (assert) {
     var o = {
         x: 1,
         foo: function (a, b) {
-            console.log(arguments, this.x, a, b);
             return this.x + a + b;
         }
     };
